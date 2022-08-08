@@ -1,5 +1,5 @@
 version 1.0
-#test
+
 task hello {
   input {
     String name
@@ -18,6 +18,6 @@ task hello {
   }
 }
 
-workflow test {
+workflow testname {
   call hello
 }
