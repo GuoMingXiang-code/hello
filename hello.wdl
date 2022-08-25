@@ -18,7 +18,7 @@ task hello {
         memory: "1 GB"
         cpu: "1"
         bootDiskSizeGb: 10
-        disks: "local-disk 10 SSD"
+        disks: "local-disk 50 SSD"
         preemptible: "true"
     }
 }
