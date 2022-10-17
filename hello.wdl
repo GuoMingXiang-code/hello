@@ -23,5 +23,9 @@ task hello {
 }
 
 workflow testname {
+  meta {
+    author: "Andrew Duncan"
+    email: "gmx18525373056@163.com"
+  }
   call hello
 }
