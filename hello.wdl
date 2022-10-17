@@ -20,6 +20,7 @@ task hello {
         bootDiskSizeGb: 10
         disks: "local-disk 40 SSD"
         preemptible: 1
+        description: "test"
     }
 }
 
