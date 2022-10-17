@@ -12,9 +12,6 @@ task hello {
   output {
     File response = stdout()
   }
-  meta {
-    description: "test"
-  }
   runtime {
         docker: "cr-cn-beijing.volces.com/bio-island/busybox:1.30.0"
         memory: "1 GB"
