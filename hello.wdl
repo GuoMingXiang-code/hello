@@ -24,7 +24,7 @@ task hello {
 
 workflow testname {
   meta {
-    author: "Andrew Duncan"
+    author: "gmx"
     email: "gmx18525373056@163.com"
   }
   call hello
