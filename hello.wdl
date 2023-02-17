@@ -20,6 +20,10 @@ task hello {
         disks: "local-disk 40 SSD"
         preemptible: 1
     }
+    
+  parameter_meta {
+        name: "workflow name"
+    }
 }
 
 workflow testname {
